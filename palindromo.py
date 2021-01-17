@@ -16,8 +16,7 @@ class Solution:
     def dequeueCharacter(self):
       return self.queue.pop(0)  
 
-    def imprimir(self):
-      print(self.stack)
+    
         
     # Write your code here
 
@@ -31,7 +30,7 @@ l=len(s)
 for i in range(l):
     obj.pushCharacter(s[i])
     obj.enqueueCharacter(s[i])   
-obj.imprimir()    
+   
 isPalindrome=True
 '''
 pop the top character from stack
